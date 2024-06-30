@@ -3,14 +3,7 @@
 name: Build dockers
 
 on:
-
   push:
-    branches:
-      - master
-
-  workflow_dispatch:
-  release:
-    types: [published]
 
 jobs:
 
