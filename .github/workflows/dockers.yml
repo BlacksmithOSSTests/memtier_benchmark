@@ -9,7 +9,7 @@ jobs:
 
   docker:
     name: Build dockers
-    runs-on: blacksmith-2vcpu-ubuntu-2204-arm
+    runs-on: blacksmith-2vcpu-ubuntu-2204
     steps:
       - uses: actions/checkout@v3
 
